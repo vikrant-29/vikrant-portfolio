@@ -24,7 +24,7 @@ export default function AboutSection() {
           {/* LEFT */}
           <motion.div initial={{ opacity:0, x:-28 }} whileInView={{ opacity:1, x:0 }} viewport={{ once:true }} transition={{ duration:0.7 }}>
             <div className="section-tag" style={{ marginBottom:20 }}>About Me</div>
-            <h2 style={{ fontFamily:"'Bebas Neue',cursive", fontSize:"clamp(32px,4vw,48px)", letterSpacing:"0.04em", marginBottom:24, color:"#fff" }}>
+            <h2 style={{ fontFamily:"var(--font-bebas),'Bebas Neue',cursive", fontSize:"clamp(32px,4vw,48px)", letterSpacing:"0.04em", marginBottom:24, color:"#fff" }}>
               CRAFTING APPS <span className="gradient-text">THAT MATTER</span>
             </h2>
             <div style={{ display:"flex", flexDirection:"column", gap:14, color:"#A1A1AA", lineHeight:1.82, fontSize:14.5, marginBottom:28 }}>
@@ -35,7 +35,7 @@ export default function AboutSection() {
             <div className="highlights-grid">
               {HIGHLIGHTS.map((h,i) => (
                 <div key={i} style={CARD}>
-                  <p style={{ color:"#FF7A00", fontSize:10, fontFamily:"'JetBrains Mono',monospace", textTransform:"uppercase", letterSpacing:"0.12em", marginBottom:6 }}>{h.label}</p>
+                  <p style={{ color:"#FF7A00", fontSize:10, fontFamily:"var(--font-jetbrains),'JetBrains Mono',monospace", textTransform:"uppercase", letterSpacing:"0.12em", marginBottom:6 }}>{h.label}</p>
                   <p style={{ color:"#fff", fontWeight:600, fontSize:14 }}>{h.detail}</p>
                 </div>
               ))}
@@ -44,7 +44,7 @@ export default function AboutSection() {
 
           {/* RIGHT */}
           <motion.div initial={{ opacity:0, x:28 }} whileInView={{ opacity:1, x:0 }} viewport={{ once:true }} transition={{ duration:0.7 }}>
-            <h3 style={{ fontFamily:"'Bebas Neue',cursive", fontSize:28, letterSpacing:"0.06em", color:"#fff", marginBottom:32 }}>MY JOURNEY</h3>
+            <h3 style={{ fontFamily:"var(--font-bebas),'Bebas Neue',cursive", fontSize:28, letterSpacing:"0.06em", color:"#fff", marginBottom:32 }}>MY JOURNEY</h3>
             <div style={{ position:"relative" }}>
               <div style={{ position:"absolute", left:20, top:0, bottom:0, width:1, background:"linear-gradient(to bottom,rgba(255,122,0,0.5),rgba(255,122,0,0.1),transparent)" }} />
               <div style={{ display:"flex", flexDirection:"column", gap:20 }}>
@@ -58,7 +58,7 @@ export default function AboutSection() {
                     </div>
                     <div style={{ ...CARD, flex:1 }}>
                       <div style={{ display:"flex", alignItems:"center", gap:10, marginBottom:8, flexWrap:"wrap" }}>
-                        <span style={{ background:"rgba(255,122,0,0.12)", color:"#FF7A00", fontFamily:"'JetBrains Mono',monospace", fontSize:11, fontWeight:700, padding:"2px 8px", borderRadius:6 }}>{year}</span>
+                        <span style={{ background:"rgba(255,122,0,0.12)", color:"#FF7A00", fontFamily:"var(--font-jetbrains),'JetBrains Mono',monospace", fontSize:11, fontWeight:700, padding:"2px 8px", borderRadius:6 }}>{year}</span>
                         <h4 style={{ color:"#fff", fontWeight:600, fontSize:13.5 }}>{title}</h4>
                       </div>
                       <p style={{ color:"#A1A1AA", fontSize:13, lineHeight:1.75 }}>{desc}</p>

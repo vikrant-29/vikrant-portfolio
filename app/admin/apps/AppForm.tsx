@@ -9,7 +9,7 @@ import type { App, AppFormData } from "@/types";
 const LABEL_STYLE: React.CSSProperties = {
   color: "#A1A1AA",
   fontSize: 10,
-  fontFamily: "'JetBrains Mono',monospace",
+  fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace",
   textTransform: "uppercase",
   letterSpacing: "0.12em",
   display: "block",
@@ -347,7 +347,7 @@ export default function AppForm({ app }: { app?: App }) {
                 color: "#555",
                 fontSize: 11,
                 marginTop: 6,
-                fontFamily: "'JetBrains Mono',monospace",
+                fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace",
               }}
             >
               PNG, JPG, WebP — max 2MB
@@ -447,7 +447,7 @@ export default function AppForm({ app }: { app?: App }) {
                 background: "rgba(255,122,0,0.1)",
                 border: "1px solid rgba(255,122,0,0.25)",
                 color: "#FF7A00",
-                fontFamily: "'JetBrains Mono',monospace",
+                fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace",
               }}
             >
               {t}
@@ -473,7 +473,7 @@ export default function AppForm({ app }: { app?: App }) {
               style={{
                 color: "#555",
                 fontSize: 12,
-                fontFamily: "'JetBrains Mono',monospace",
+                fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace",
               }}
             >
               No technologies added yet
@@ -588,7 +588,7 @@ export default function AppForm({ app }: { app?: App }) {
               style={{
                 color: "#A1A1AA",
                 fontSize: 11,
-                fontFamily: "'JetBrains Mono',monospace",
+                fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace",
               }}
             >
               Shows in the homepage Featured Apps section

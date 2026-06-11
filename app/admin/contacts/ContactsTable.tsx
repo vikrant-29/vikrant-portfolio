@@ -44,7 +44,7 @@ export default function ContactsTable({
           style={{
             fontSize: 12,
             color: "#555",
-            fontFamily: "'JetBrains Mono',monospace",
+            fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace",
             marginTop: 6,
           }}
         >
@@ -80,7 +80,7 @@ export default function ContactsTable({
             style={{
               color: "#A1A1AA",
               fontSize: 11,
-              fontFamily: "'JetBrains Mono',monospace",
+              fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace",
               textTransform: "uppercase",
               letterSpacing: "0.1em",
             }}
@@ -130,7 +130,7 @@ export default function ContactsTable({
               style={{
                 color: "#555",
                 fontSize: 11,
-                fontFamily: "'JetBrains Mono',monospace",
+                fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace",
                 whiteSpace: "nowrap",
               }}
             >
@@ -208,7 +208,7 @@ export default function ContactsTable({
                   style={{
                     color: "#A1A1AA",
                     fontSize: 11,
-                    fontFamily: "'JetBrains Mono',monospace",
+                    fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace",
                     textTransform: "uppercase",
                     letterSpacing: "0.1em",
                     marginBottom: 8,
@@ -230,7 +230,7 @@ export default function ContactsTable({
                   style={{
                     color: "#555",
                     fontSize: 11,
-                    fontFamily: "'JetBrains Mono',monospace",
+                    fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace",
                     marginTop: 12,
                   }}
                 >

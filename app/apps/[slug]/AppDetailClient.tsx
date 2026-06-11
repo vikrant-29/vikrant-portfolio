@@ -90,7 +90,7 @@ export default function AppDetailClient({
             >
               <span
                 style={{
-                  fontFamily: "'Bebas Neue',cursive",
+                  fontFamily: "var(--font-bebas),'Bebas Neue',cursive",
                   fontSize: 34, color: "#FF7A00",
                 }}
               >
@@ -101,7 +101,7 @@ export default function AppDetailClient({
           <div style={{ flex: 1, minWidth: 200 }}>
             <h1
               style={{
-                fontFamily: "'Bebas Neue',cursive",
+                fontFamily: "var(--font-bebas),'Bebas Neue',cursive",
                 fontSize: "clamp(36px,5vw,56px)",
                 letterSpacing: "0.04em", color: "#fff",
               }}
@@ -213,7 +213,7 @@ export default function AppDetailClient({
                     <span
                       style={{
                         color: "#A1A1AA", fontSize: 12,
-                        fontFamily: "'JetBrains Mono',monospace",
+                        fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace",
                       }}
                     >
                       No screenshots
@@ -274,7 +274,7 @@ export default function AppDetailClient({
                           cursor: "pointer",
                           color: shot === i ? "#FF7A00" : "#A1A1AA",
                           fontSize: 12,
-                          fontFamily: "'JetBrains Mono',monospace",
+                          fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace",
                           transition: "all 0.2s",
                           overflow: "hidden",
                           padding: 0,
@@ -329,7 +329,7 @@ export default function AppDetailClient({
                     style={{
                       fontSize: 12, padding: "6px 13px", borderRadius: 20,
                       border: "1px solid",
-                      fontFamily: "'JetBrains Mono',monospace",
+                      fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace",
                     }}
                   >
                     {t}
@@ -453,7 +453,7 @@ export default function AppDetailClient({
                         <span
                           style={{
                             fontSize: 14, color: "#FF7A00",
-                            fontFamily: "'Bebas Neue',cursive",
+                            fontFamily: "var(--font-bebas),'Bebas Neue',cursive",
                           }}
                         >
                           {r.title[0]}

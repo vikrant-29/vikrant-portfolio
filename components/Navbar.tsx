@@ -34,7 +34,7 @@ export default function Navbar() {
           <div style={{ width:34, height:34, borderRadius:8, background:"#FF7A00", display:"flex", alignItems:"center", justifyContent:"center", boxShadow:"0 0 20px rgba(255,122,0,0.4)" }}>
             <Terminal size={16} color="#fff" />
           </div>
-          <span style={{ fontFamily:"'Bebas Neue',cursive", fontSize:20, letterSpacing:"0.15em", color:"#fff" }}>
+          <span style={{ fontFamily:"var(--font-bebas),'Bebas Neue',cursive", fontSize:20, letterSpacing:"0.15em", color:"#fff" }}>
             VIKRANT<span style={{ color:"#FF7A00" }}>.EXE</span>
           </span>
         </Link>

@@ -169,7 +169,7 @@ export default function AppsTable({ initialApps }: { initialApps: App[] }) {
               style={{
                 color: "#A1A1AA",
                 fontSize: 11,
-                fontFamily: "'JetBrains Mono',monospace",
+                fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace",
                 textTransform: "uppercase",
                 letterSpacing: "0.1em",
               }}
@@ -223,7 +223,7 @@ export default function AppsTable({ initialApps }: { initialApps: App[] }) {
                 >
                   <span
                     style={{
-                      fontFamily: "'Bebas Neue',cursive",
+                      fontFamily: "var(--font-bebas),'Bebas Neue',cursive",
                       fontSize: 16,
                       color: "#FF7A00",
                     }}
@@ -249,7 +249,7 @@ export default function AppsTable({ initialApps }: { initialApps: App[] }) {
                   style={{
                     color: "#555",
                     fontSize: 11,
-                    fontFamily: "'JetBrains Mono',monospace",
+                    fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace",
                   }}
                 >
                   /{app.slug}
@@ -275,7 +275,7 @@ export default function AppsTable({ initialApps }: { initialApps: App[] }) {
                     borderRadius: 12,
                     background: "rgba(255,255,255,0.06)",
                     color: "#A1A1AA",
-                    fontFamily: "'JetBrains Mono',monospace",
+                    fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace",
                     border: "1px solid rgba(255,255,255,0.08)",
                   }}
                 >
@@ -290,7 +290,7 @@ export default function AppsTable({ initialApps }: { initialApps: App[] }) {
                     borderRadius: 12,
                     background: "rgba(255,255,255,0.04)",
                     color: "#555",
-                    fontFamily: "'JetBrains Mono',monospace",
+                    fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace",
                   }}
                 >
                   +{app.tech_stack.length - 2}
@@ -309,7 +309,7 @@ export default function AppsTable({ initialApps }: { initialApps: App[] }) {
                     background: "rgba(255,122,0,0.12)",
                     color: "#FF7A00",
                     border: "1px solid rgba(255,122,0,0.25)",
-                    fontFamily: "'JetBrains Mono',monospace",
+                    fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace",
                   }}
                 >
                   Featured
@@ -323,7 +323,7 @@ export default function AppsTable({ initialApps }: { initialApps: App[] }) {
                     background: "rgba(255,255,255,0.04)",
                     color: "#555",
                     border: "1px solid rgba(255,255,255,0.06)",
-                    fontFamily: "'JetBrains Mono',monospace",
+                    fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace",
                   }}
                 >
                   Standard

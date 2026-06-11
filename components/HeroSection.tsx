@@ -26,19 +26,19 @@ export default function HeroSection() {
 
             <p style={{ color: "#A1A1AA", fontSize: 18, fontWeight: 500, marginBottom: 8 }}>Hi, I'm</p>
 
-            <h1 style={{ fontFamily: "'Bebas Neue',cursive", fontSize: "clamp(50px,7vw,82px)", letterSpacing: "0.04em", lineHeight: 1.02, marginBottom: 18, color: "#fff" }}>
+            <h1 style={{ fontFamily: "var(--font-bebas),'Bebas Neue',cursive", fontSize: "clamp(50px,7vw,82px)", letterSpacing: "0.04em", lineHeight: 1.02, marginBottom: 18, color: "#fff" }}>
               VIKRANT<br />
               <span className="gradient-text glow-text">VIJAY PATIL</span>
             </h1>
 
             <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 12 }}>
               <div style={{ width: 40, height: 1, background: "#FF7A00", flexShrink: 0 }} />
-              <span style={{ fontFamily: "'JetBrains Mono',monospace", fontSize: 11, color: "#FF7A00", letterSpacing: "0.14em", textTransform: "uppercase" }}>
+              <span style={{ fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace", fontSize: 11, color: "#FF7A00", letterSpacing: "0.14em", textTransform: "uppercase" }}>
                 Android &amp; Flutter Developer
               </span>
             </div>
 
-            <p style={{ fontFamily: "'JetBrains Mono',monospace", fontSize: 12, color: "#A1A1AA", marginBottom: 24 }}>
+            <p style={{ fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace", fontSize: 12, color: "#A1A1AA", marginBottom: 24 }}>
               B.Sc. Computer Science Graduate
             </p>
 
@@ -56,7 +56,7 @@ export default function HeroSection() {
             </div>
 
             <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
-              <span style={{ color: "#A1A1AA", fontSize: 10, fontFamily: "'JetBrains Mono',monospace", letterSpacing: "0.14em", textTransform: "uppercase" }}>Follow</span>
+              <span style={{ color: "#A1A1AA", fontSize: 10, fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace", letterSpacing: "0.14em", textTransform: "uppercase" }}>Follow</span>
               <div style={{ width: 24, height: 1, background: "rgba(255,255,255,0.1)" }} />
               {[
                 { href: "https://github.com",   Icon: GitBranch,   label: "GitHub"   },
@@ -119,7 +119,7 @@ export default function HeroSection() {
           style={{ marginTop: 64, background: "rgba(255,255,255,0.04)", backdropFilter: "blur(20px)", border: "1px solid rgba(255,255,255,0.08)", borderRadius: 16, padding: "22px 32px", display: "grid", gridTemplateColumns: "repeat(3,1fr)" }}>
           {stats.map((s, i) => (
             <div key={i} style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 4, borderRight: i < 2 ? "1px solid rgba(255,255,255,0.06)" : "none" }}>
-              <span className="gradient-text" style={{ fontFamily: "'Bebas Neue',cursive", fontSize: "clamp(28px,4vw,44px)", letterSpacing: "0.05em" }}>{s.value}</span>
+              <span className="gradient-text" style={{ fontFamily: "var(--font-bebas),'Bebas Neue',cursive", fontSize: "clamp(28px,4vw,44px)", letterSpacing: "0.05em" }}>{s.value}</span>
               <span style={{ color: "#A1A1AA", fontSize: 13, textAlign: "center" }}>{s.label}</span>
             </div>
           ))}

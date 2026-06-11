@@ -7,7 +7,7 @@ export default function NewAppPage() {
     <div>
       <h1
         style={{
-          fontFamily: "'Bebas Neue',cursive",
+          fontFamily: "var(--font-bebas),'Bebas Neue',cursive",
           fontSize: 40,
           letterSpacing: "0.04em",
           color: "#fff",

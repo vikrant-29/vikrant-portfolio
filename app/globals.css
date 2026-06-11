@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=JetBrains+Mono:wght@400;500&display=swap');
+/* Fonts loaded via next/font/google in layout.tsx — bundled locally */
 @import "tailwindcss";
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
-body { background: #050505; color: #fff; font-family: 'DM Sans', sans-serif; overflow-x: hidden; min-height: 100vh; }
+body { background: #050505; color: #fff; font-family: var(--font-dm-sans), 'DM Sans', sans-serif; overflow-x: hidden; min-height: 100vh; }
 ::-webkit-scrollbar { width: 3px; }
 ::-webkit-scrollbar-track { background: #050505; }
 ::-webkit-scrollbar-thumb { background: #FF7A00; border-radius: 2px; }
@@ -27,13 +27,13 @@ body { background: #050505; color: #fff; font-family: 'DM Sans', sans-serif; ove
   -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
 }
 .section-tag {
-  font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #FF7A00;
+  font-family: var(--font-jetbrains), 'JetBrains Mono', monospace; font-size: 11px; color: #FF7A00;
   letter-spacing: 0.15em; text-transform: uppercase; display: flex; align-items: center; gap: 8px;
 }
 .section-tag::before { content: ''; width: 24px; height: 1px; background: #FF7A00; flex-shrink: 0; }
 .btn-primary {
   display: inline-flex; align-items: center; gap: 7px;
-  background: #FF7A00; color: #fff; font-family: 'DM Sans', sans-serif;
+  background: #FF7A00; color: #fff; font-family: var(--font-dm-sans), 'DM Sans', sans-serif;
   font-weight: 600; font-size: 14px; padding: 11px 24px; border-radius: 8px;
   border: none; cursor: pointer; text-decoration: none;
   transition: background 0.25s, box-shadow 0.25s, transform 0.2s; white-space: nowrap;
@@ -41,7 +41,7 @@ body { background: #050505; color: #fff; font-family: 'DM Sans', sans-serif; ove
 .btn-primary:hover { background: #e06600; box-shadow: 0 0 28px rgba(255,122,0,0.45); transform: translateY(-2px); }
 .btn-outline {
   display: inline-flex; align-items: center; gap: 7px; background: transparent; color: #fff;
-  font-family: 'DM Sans', sans-serif; font-weight: 600; font-size: 14px; padding: 10px 24px;
+  font-family: var(--font-dm-sans), 'DM Sans', sans-serif; font-weight: 600; font-size: 14px; padding: 10px 24px;
   border-radius: 8px; border: 1px solid rgba(255,255,255,0.2); cursor: pointer; text-decoration: none;
   transition: border-color 0.25s, color 0.25s, transform 0.2s; white-space: nowrap;
 }
@@ -57,7 +57,7 @@ body { background: #050505; color: #fff; font-family: 'DM Sans', sans-serif; ove
 .form-input {
   width: 100%; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08);
   border-radius: 10px; padding: 12px 16px; color: #fff;
-  font-family: 'DM Sans', sans-serif; font-size: 14px; outline: none; transition: border-color 0.25s;
+  font-family: var(--font-dm-sans), 'DM Sans', sans-serif; font-size: 14px; outline: none; transition: border-color 0.25s;
 }
 .form-input::placeholder { color: rgba(255,255,255,0.2); }
 .form-input:focus { border-color: rgba(255,122,0,0.5); }

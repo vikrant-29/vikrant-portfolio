@@ -24,7 +24,7 @@ export default function AboutPage() {
         {/* Hero */}
         <motion.div initial={{ opacity:0, y:20 }} animate={{ opacity:1, y:0 }} style={{ marginBottom:72 }}>
           <div className="section-tag" style={{ marginBottom:16 }}>About Me</div>
-          <h1 style={{ fontFamily:"'Bebas Neue',cursive", fontSize:"clamp(42px,6vw,68px)", letterSpacing:"0.04em", color:"#fff", marginBottom:36 }}>
+          <h1 style={{ fontFamily:"var(--font-bebas),'Bebas Neue',cursive", fontSize:"clamp(42px,6vw,68px)", letterSpacing:"0.04em", color:"#fff", marginBottom:36 }}>
             ABOUT <span className="gradient-text">VIKRANT</span>
           </h1>
           <div className="about-hero">
@@ -57,7 +57,7 @@ export default function AboutPage() {
                 </div>
                 {/* Badge */}
                 <div style={{ position:"absolute", bottom:-12, right:-12, background:"rgba(8,8,8,0.92)", border:"1px solid rgba(255,122,0,0.3)", borderRadius:10, padding:"5px 12px" }}>
-                  <span style={{ color:"#FF7A00", fontSize:11, fontFamily:"'JetBrains Mono',monospace" }}>Available for hire</span>
+                  <span style={{ color:"#FF7A00", fontSize:11, fontFamily:"var(--font-jetbrains),'JetBrains Mono',monospace" }}>Available for hire</span>
                 </div>
               </div>
             </div>
@@ -78,7 +78,7 @@ export default function AboutPage() {
 
         {/* Timeline */}
         <section style={{ marginBottom:72 }}>
-          <h2 style={{ fontFamily:"'Bebas Neue',cursive", fontSize:"clamp(30px,4vw,44px)", letterSpacing:"0.04em", color:"#fff", marginBottom:40 }}>
+          <h2 style={{ fontFamily:"var(--font-bebas),'Bebas Neue',cursive", fontSize:"clamp(30px,4vw,44px)", letterSpacing:"0.04em", color:"#fff", marginBottom:40 }}>
             MY <span className="gradient-text">JOURNEY</span>
           </h2>
           <div style={{ position:"relative" }}>
@@ -94,7 +94,7 @@ export default function AboutPage() {
                   </div>
                   <div style={{ ...CARD, flex:1 }}>
                     <div style={{ display:"flex", alignItems:"center", gap:10, marginBottom:8, flexWrap:"wrap" }}>
-                      <span style={{ background:"rgba(255,122,0,0.12)", color:"#FF7A00", fontFamily:"'JetBrains Mono',monospace", fontSize:11, fontWeight:700, padding:"2px 8px", borderRadius:6 }}>{year}</span>
+                      <span style={{ background:"rgba(255,122,0,0.12)", color:"#FF7A00", fontFamily:"var(--font-jetbrains),'JetBrains Mono',monospace", fontSize:11, fontWeight:700, padding:"2px 8px", borderRadius:6 }}>{year}</span>
                       <h3 style={{ color:"#fff", fontWeight:600, fontSize:14 }}>{title}</h3>
                     </div>
                     <p style={{ color:"#A1A1AA", fontSize:13, lineHeight:1.75 }}>{desc}</p>
@@ -107,7 +107,7 @@ export default function AboutPage() {
 
         {/* Skills */}
         <section>
-          <h2 style={{ fontFamily:"'Bebas Neue',cursive", fontSize:"clamp(30px,4vw,44px)", letterSpacing:"0.04em", color:"#fff", marginBottom:40 }}>
+          <h2 style={{ fontFamily:"var(--font-bebas),'Bebas Neue',cursive", fontSize:"clamp(30px,4vw,44px)", letterSpacing:"0.04em", color:"#fff", marginBottom:40 }}>
             SKILLS & <span className="gradient-text">EXPERTISE</span>
           </h2>
           <div className="skills-grid">

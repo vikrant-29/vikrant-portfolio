@@ -50,7 +50,7 @@ export default function AdminSidebar() {
         <Link
           href="/"
           style={{
-            fontFamily: "'Bebas Neue',cursive",
+            fontFamily: "var(--font-bebas),'Bebas Neue',cursive",
             fontSize: 22,
             letterSpacing: "0.06em",
             color: "#fff",
@@ -64,7 +64,7 @@ export default function AdminSidebar() {
           style={{
             fontSize: 10,
             color: "#A1A1AA",
-            fontFamily: "'JetBrains Mono',monospace",
+            fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace",
             textTransform: "uppercase",
             letterSpacing: "0.1em",
           }}

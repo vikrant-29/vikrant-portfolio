@@ -16,7 +16,7 @@ export default function SkillsSection() {
       <div style={{ maxWidth:1280, margin:"0 auto", padding:"0 24px", position:"relative" }}>
         <div style={{ textAlign:"center", marginBottom:60 }}>
           <div className="section-tag" style={{ justifyContent:"center", marginBottom:16 }}>Expertise</div>
-          <h2 style={{ fontFamily:"'Bebas Neue',cursive", fontSize:"clamp(36px,5vw,56px)", letterSpacing:"0.04em", color:"#fff" }}>
+          <h2 style={{ fontFamily:"var(--font-bebas),'Bebas Neue',cursive", fontSize:"clamp(36px,5vw,56px)", letterSpacing:"0.04em", color:"#fff" }}>
             SKILLS & <span className="gradient-text">TECHNOLOGIES</span>
           </h2>
         </div>
@@ -26,7 +26,7 @@ export default function SkillsSection() {
           <div className="animate-marquee" style={{ display:"flex", gap:12, width:"max-content", padding:"6px 12px" }}>
             {[...MARQUEE,...MARQUEE].map((s,i) => (
               <span key={i} className="skill-pill"
-                style={{ fontSize:13, padding:"10px 20px", borderRadius:24, border:"1px solid rgba(255,255,255,0.09)", background:"rgba(255,255,255,0.04)", color:"#A1A1AA", whiteSpace:"nowrap", fontFamily:"'DM Sans',sans-serif", fontWeight:500 }}>
+                style={{ fontSize:13, padding:"10px 20px", borderRadius:24, border:"1px solid rgba(255,255,255,0.09)", background:"rgba(255,255,255,0.04)", color:"#A1A1AA", whiteSpace:"nowrap", fontFamily:"var(--font-dm-sans),'DM Sans',sans-serif", fontWeight:500 }}>
                 {s}
               </span>
             ))}

@@ -33,7 +33,7 @@ export default function UnauthorizedPage() {
         </div>
         <h1
           style={{
-            fontFamily: "'Bebas Neue',cursive",
+            fontFamily: "var(--font-bebas),'Bebas Neue',cursive",
             fontSize: "clamp(42px,6vw,64px)",
             letterSpacing: "0.04em",
             color: "#fff",

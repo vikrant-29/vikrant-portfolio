@@ -60,7 +60,7 @@ export default function AppsClient({ initialApps }: { initialApps: App[] }) {
           <div className="section-tag" style={{ marginBottom: 16 }}>Portfolio</div>
           <h1
             style={{
-              fontFamily: "'Bebas Neue',cursive",
+              fontFamily: "var(--font-bebas),'Bebas Neue',cursive",
               fontSize: "clamp(42px,6vw,68px)",
               letterSpacing: "0.04em",
               color: "#fff",
@@ -103,7 +103,7 @@ export default function AppsClient({ initialApps }: { initialApps: App[] }) {
                 style={{
                   fontSize: 12, padding: "8px 14px", borderRadius: 8,
                   border: "1px solid", cursor: "pointer",
-                  fontFamily: "'DM Sans',sans-serif", fontWeight: 500,
+                  fontFamily: "var(--font-dm-sans),'DM Sans',sans-serif", fontWeight: 500,
                   transition: "all 0.2s",
                   background: filter === f ? "#FF7A00" : "rgba(255,255,255,0.04)",
                   borderColor: filter === f ? "#FF7A00" : "rgba(255,255,255,0.1)",
@@ -119,7 +119,7 @@ export default function AppsClient({ initialApps }: { initialApps: App[] }) {
         <p
           style={{
             color: "#A1A1AA", fontSize: 12,
-            fontFamily: "'JetBrains Mono',monospace", marginBottom: 24,
+            fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace", marginBottom: 24,
           }}
         >
           Showing <span style={{ color: "#FF7A00" }}>{filtered.length}</span>{" "}
@@ -165,7 +165,7 @@ export default function AppsClient({ initialApps }: { initialApps: App[] }) {
                     >
                       <span
                         style={{
-                          fontFamily: "'Bebas Neue',cursive",
+                          fontFamily: "var(--font-bebas),'Bebas Neue',cursive",
                           fontSize: 20, color: "#FF7A00",
                         }}
                       >
@@ -191,7 +191,7 @@ export default function AppsClient({ initialApps }: { initialApps: App[] }) {
                             color: "#FF7A00",
                             border: "1px solid rgba(255,122,0,0.25)",
                             padding: "2px 8px", borderRadius: 20,
-                            fontFamily: "'JetBrains Mono',monospace",
+                            fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace",
                           }}
                         >
                           Featured
@@ -217,7 +217,7 @@ export default function AppsClient({ initialApps }: { initialApps: App[] }) {
                       style={{
                         fontSize: 11, padding: "4px 10px", borderRadius: 20,
                         border: "1px solid",
-                        fontFamily: "'JetBrains Mono',monospace",
+                        fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace",
                       }}
                     >
                       {t}

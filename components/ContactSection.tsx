@@ -23,7 +23,7 @@ export default function ContactSection() {
       <div style={{ maxWidth:1280, margin:"0 auto", padding:"0 24px", position:"relative" }}>
         <div style={{ textAlign:"center", marginBottom:56 }}>
           <div className="section-tag" style={{ justifyContent:"center", marginBottom:16 }}>Get In Touch</div>
-          <h2 style={{ fontFamily:"'Bebas Neue',cursive", fontSize:"clamp(36px,5vw,56px)", letterSpacing:"0.04em", color:"#fff", marginBottom:14 }}>
+          <h2 style={{ fontFamily:"var(--font-bebas),'Bebas Neue',cursive", fontSize:"clamp(36px,5vw,56px)", letterSpacing:"0.04em", color:"#fff", marginBottom:14 }}>
             LET&apos;S <span className="gradient-text">CONNECT</span>
           </h2>
           <p style={{ color:"#A1A1AA", fontSize:15, maxWidth:440, margin:"0 auto" }}>
@@ -70,25 +70,25 @@ export default function ContactSection() {
                   <div style={{ width:80, height:80, borderRadius:"50%", background:"rgba(255,122,0,0.1)", border:"1px solid rgba(255,122,0,0.25)", display:"flex", alignItems:"center", justifyContent:"center" }}>
                     <CheckCircle size={36} color="#FF7A00" />
                   </div>
-                  <h3 style={{ fontFamily:"'Bebas Neue',cursive", fontSize:30, color:"#fff", letterSpacing:"0.06em" }}>MESSAGE SENT!</h3>
+                  <h3 style={{ fontFamily:"var(--font-bebas),'Bebas Neue',cursive", fontSize:30, color:"#fff", letterSpacing:"0.06em" }}>MESSAGE SENT!</h3>
                   <p style={{ color:"#A1A1AA", fontSize:14 }}>I'll get back to you within 24 hours.</p>
                   <button onClick={() => { setSent(false); setForm({ name:"", email:"", message:"" }); }} className="btn-outline" style={{ marginTop:8 }}>Send Another</button>
                 </div>
               ) : (
                 <form onSubmit={submit} style={{ display:"flex", flexDirection:"column", gap:18 }}>
-                  <h3 style={{ fontFamily:"'Bebas Neue',cursive", fontSize:26, letterSpacing:"0.06em", color:"#fff", marginBottom:4 }}>SEND A MESSAGE</h3>
+                  <h3 style={{ fontFamily:"var(--font-bebas),'Bebas Neue',cursive", fontSize:26, letterSpacing:"0.06em", color:"#fff", marginBottom:4 }}>SEND A MESSAGE</h3>
                   <div className="form-row">
                     <div>
-                      <label style={{ color:"#A1A1AA", fontSize:10, fontFamily:"'JetBrains Mono',monospace", textTransform:"uppercase", letterSpacing:"0.12em", display:"block", marginBottom:8 }}>Name *</label>
+                      <label style={{ color:"#A1A1AA", fontSize:10, fontFamily:"var(--font-jetbrains),'JetBrains Mono',monospace", textTransform:"uppercase", letterSpacing:"0.12em", display:"block", marginBottom:8 }}>Name *</label>
                       <input type="text" required value={form.name} onChange={e => setForm({ ...form, name:e.target.value })} placeholder="Your full name" className="form-input" />
                     </div>
                     <div>
-                      <label style={{ color:"#A1A1AA", fontSize:10, fontFamily:"'JetBrains Mono',monospace", textTransform:"uppercase", letterSpacing:"0.12em", display:"block", marginBottom:8 }}>Email *</label>
+                      <label style={{ color:"#A1A1AA", fontSize:10, fontFamily:"var(--font-jetbrains),'JetBrains Mono',monospace", textTransform:"uppercase", letterSpacing:"0.12em", display:"block", marginBottom:8 }}>Email *</label>
                       <input type="email" required value={form.email} onChange={e => setForm({ ...form, email:e.target.value })} placeholder="your@email.com" className="form-input" />
                     </div>
                   </div>
                   <div>
-                    <label style={{ color:"#A1A1AA", fontSize:10, fontFamily:"'JetBrains Mono',monospace", textTransform:"uppercase", letterSpacing:"0.12em", display:"block", marginBottom:8 }}>Message *</label>
+                    <label style={{ color:"#A1A1AA", fontSize:10, fontFamily:"var(--font-jetbrains),'JetBrains Mono',monospace", textTransform:"uppercase", letterSpacing:"0.12em", display:"block", marginBottom:8 }}>Message *</label>
                     <textarea required rows={5} value={form.message} onChange={e => setForm({ ...form, message:e.target.value })} placeholder="Tell me about your project..." className="form-input" style={{ resize:"none" }} />
                   </div>
                   <button type="submit" disabled={loading} className="btn-primary" style={{ justifyContent:"center", padding:14, opacity:loading?0.65:1, cursor:loading?"not-allowed":"pointer" }}>

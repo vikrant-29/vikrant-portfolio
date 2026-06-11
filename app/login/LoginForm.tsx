@@ -57,7 +57,7 @@ export default function LoginForm() {
         </div>
         <h1
           style={{
-            fontFamily: "'Bebas Neue',cursive",
+            fontFamily: "var(--font-bebas),'Bebas Neue',cursive",
             fontSize: 32, letterSpacing: "0.06em",
             color: "#fff", marginBottom: 6,
           }}
@@ -90,7 +90,7 @@ export default function LoginForm() {
           <label
             style={{
               color: "#A1A1AA", fontSize: 10,
-              fontFamily: "'JetBrains Mono',monospace",
+              fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace",
               textTransform: "uppercase", letterSpacing: "0.12em",
               display: "block", marginBottom: 8,
             }}
@@ -120,7 +120,7 @@ export default function LoginForm() {
           <label
             style={{
               color: "#A1A1AA", fontSize: 10,
-              fontFamily: "'JetBrains Mono',monospace",
+              fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace",
               textTransform: "uppercase", letterSpacing: "0.12em",
               display: "block", marginBottom: 8,
             }}

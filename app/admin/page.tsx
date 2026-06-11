@@ -56,7 +56,7 @@ export default async function AdminDashboard() {
         <div>
           <h1
             style={{
-              fontFamily: "'Bebas Neue',cursive",
+              fontFamily: "var(--font-bebas),'Bebas Neue',cursive",
               fontSize: 40,
               letterSpacing: "0.04em",
               color: "#fff",
@@ -125,7 +125,7 @@ export default async function AdminDashboard() {
                     color: "#A1A1AA",
                     fontSize: 12,
                     marginBottom: 4,
-                    fontFamily: "'JetBrains Mono',monospace",
+                    fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace",
                     textTransform: "uppercase",
                     letterSpacing: "0.08em",
                   }}
@@ -137,7 +137,7 @@ export default async function AdminDashboard() {
                     color: "#fff",
                     fontSize: 28,
                     fontWeight: 700,
-                    fontFamily: "'Bebas Neue',cursive",
+                    fontFamily: "var(--font-bebas),'Bebas Neue',cursive",
                     letterSpacing: "0.04em",
                   }}
                 >
@@ -232,7 +232,7 @@ export default async function AdminDashboard() {
                   style={{
                     color: "#555",
                     fontSize: 11,
-                    fontFamily: "'JetBrains Mono',monospace",
+                    fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace",
                     whiteSpace: "nowrap",
                   }}
                 >

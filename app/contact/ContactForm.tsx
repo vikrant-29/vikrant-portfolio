@@ -53,7 +53,7 @@ export default function ContactForm() {
           </div>
           <h1
             style={{
-              fontFamily: "'Bebas Neue',cursive",
+              fontFamily: "var(--font-bebas),'Bebas Neue',cursive",
               fontSize: "clamp(42px,6vw,68px)",
               letterSpacing: "0.04em",
               color: "#fff",
@@ -195,7 +195,7 @@ export default function ContactForm() {
                   </div>
                   <h3
                     style={{
-                      fontFamily: "'Bebas Neue',cursive",
+                      fontFamily: "var(--font-bebas),'Bebas Neue',cursive",
                       fontSize: 30, color: "#fff", letterSpacing: "0.06em",
                     }}
                   >
@@ -222,7 +222,7 @@ export default function ContactForm() {
                 >
                   <h3
                     style={{
-                      fontFamily: "'Bebas Neue',cursive",
+                      fontFamily: "var(--font-bebas),'Bebas Neue',cursive",
                       fontSize: 28, letterSpacing: "0.06em",
                       color: "#fff", marginBottom: 4,
                     }}
@@ -248,7 +248,7 @@ export default function ContactForm() {
                       <label
                         style={{
                           color: "#A1A1AA", fontSize: 10,
-                          fontFamily: "'JetBrains Mono',monospace",
+                          fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace",
                           textTransform: "uppercase", letterSpacing: "0.12em",
                           display: "block", marginBottom: 8,
                         }}
@@ -270,7 +270,7 @@ export default function ContactForm() {
                       <label
                         style={{
                           color: "#A1A1AA", fontSize: 10,
-                          fontFamily: "'JetBrains Mono',monospace",
+                          fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace",
                           textTransform: "uppercase", letterSpacing: "0.12em",
                           display: "block", marginBottom: 8,
                         }}
@@ -293,7 +293,7 @@ export default function ContactForm() {
                     <label
                       style={{
                         color: "#A1A1AA", fontSize: 10,
-                        fontFamily: "'JetBrains Mono',monospace",
+                        fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace",
                         textTransform: "uppercase", letterSpacing: "0.12em",
                         display: "block", marginBottom: 8,
                       }}

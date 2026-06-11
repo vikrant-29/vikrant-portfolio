@@ -11,7 +11,7 @@ export default function Footer() {
               <div style={{ width:32, height:32, borderRadius:8, background:"#FF7A00", display:"flex", alignItems:"center", justifyContent:"center" }}>
                 <Terminal size={14} color="#fff" />
               </div>
-              <span style={{ fontFamily:"'Bebas Neue',cursive", fontSize:18, letterSpacing:"0.15em", color:"#fff" }}>
+              <span style={{ fontFamily:"var(--font-bebas),'Bebas Neue',cursive", fontSize:18, letterSpacing:"0.15em", color:"#fff" }}>
                 VIKRANT<span style={{ color:"#FF7A00" }}>.EXE</span>
               </span>
             </Link>

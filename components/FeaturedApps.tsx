@@ -49,7 +49,7 @@ function AppCard({ app, index }: { app: App; index: number }) {
           >
             <span
               style={{
-                fontFamily: "'Bebas Neue',cursive",
+                fontFamily: "var(--font-bebas),'Bebas Neue',cursive",
                 fontSize: 22, color: "#FF7A00",
               }}
             >
@@ -88,7 +88,7 @@ function AppCard({ app, index }: { app: App; index: number }) {
             className={`skill-pill ${techClass(t)}`}
             style={{
               fontSize: 11, padding: "4px 10px", borderRadius: 20,
-              border: "1px solid", fontFamily: "'JetBrains Mono',monospace",
+              border: "1px solid", fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace",
             }}
           >
             {t}
@@ -153,7 +153,7 @@ export default async function FeaturedApps() {
             <div className="section-tag" style={{ marginBottom: 16 }}>Portfolio</div>
             <h2
               style={{
-                fontFamily: "'Bebas Neue',cursive",
+                fontFamily: "var(--font-bebas),'Bebas Neue',cursive",
                 fontSize: "clamp(36px,5vw,56px)",
                 letterSpacing: "0.04em", color: "#fff",
               }}

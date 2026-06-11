@@ -174,7 +174,7 @@ export default function ScreenshotManager({ app }: { app: App }) {
             style={{
               fontSize: 11,
               color: "#555",
-              fontFamily: "'JetBrains Mono',monospace",
+              fontFamily: "var(--font-jetbrains),'JetBrains Mono',monospace",
               marginTop: 6,
             }}
           >
