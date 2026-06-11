@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 import { GraduationCap, Code2, Rocket, Award } from "lucide-react";
 
 const TL = [
-  { year:"2020", Icon:GraduationCap, title:"Started B.Sc. Computer Science", desc:"Enrolled in B.Sc. CS — deep dive into programming fundamentals, data structures, algorithms and OS concepts." },
-  { year:"2021", Icon:Code2, title:"Built First Android App", desc:"Created first native Android app using Java & XML. Fell in love with mobile development and never looked back." },
-  { year:"2022", Icon:Rocket, title:"Expanded to Flutter & Firebase", desc:"Learned cross-platform Flutter/Dart and integrated Firebase for auth, Firestore realtime DB, and cloud storage." },
-  { year:"2023", Icon:Award, title:"Graduation & Play Store", desc:"Graduated with B.Sc. CS. Published apps on Google Play Store — combined 10K+ downloads." },
+  { year:"2022", Icon:GraduationCap, title:"Started B.Sc. Computer Science", desc:"Enrolled in B.Sc. CS — deep dive into programming fundamentals, data structures, algorithms and OS concepts." },
+  { year:"2025", Icon:Code2, title:"Built First Android App", desc:"Created first native Android app using Java & XML. Fell in love with mobile development and never looked back." },
+  { year:"2025", Icon:Rocket, title:"Expanded to Flutter & Firebase", desc:"Learned cross-platform Flutter/Dart and integrated Firebase for auth, Firestore realtime DB, and cloud storage." },
+  { year:"2026", Icon:Award, title:"Graduation & Play Store", desc:"Graduated with B.Sc. CS. Published apps on Google Play Store — combined 500+ downloads." },
 ];
 const HIGHLIGHTS = [
   { label:"Native Android", detail:"Java & XML" },
