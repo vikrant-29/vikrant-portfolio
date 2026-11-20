@@ -1,3 +1,4 @@
+
 import type { Metadata } from "next";
 import { Bebas_Neue, DM_Sans, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
@@ -9,7 +10,7 @@ const bebasNeue = Bebas_Neue({
   weight: "400",
   subsets: ["latin"],
   variable: "--font-bebas",
-  display: "block", // no FOUT — block render until loaded
+  display: "block",
 });
 
 const dmSans = DM_Sans({
@@ -29,6 +30,9 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Vikrant.exe | Android & Flutter Developer",
   description: "Premium portfolio of Vikrant Vijay Patil — Android & Flutter Developer.",
+  verification: {
+    google: "IQshvkmPy231-Lko1ChxmVoHCeAAY8eUxY0sxBFUovQ",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
